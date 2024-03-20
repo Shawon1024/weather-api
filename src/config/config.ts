@@ -1,7 +1,7 @@
 import algosdk from "algosdk";
 
 const algodToken = "a".repeat(64);
-const server: string ="http://localhoat";
+const server: string ="http://localhost";
 const port: string = "4001";
 
 const mnemonic: string = "custom onion grab gain dragon divert hard swear habit matrix salmon decade olive normal proud keen eagle idea chicken enemy plastic carry swift about cream";
