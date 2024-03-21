@@ -7,6 +7,6 @@ app.use(cors());
 app.use(express.json());
 app.use('/api/weather', weatherRoute);
 app.listen(PORT, () => {
-    console.log('Server is Listening on Port: ${PORT');
+    console.log(`Server is Listening on Port: ${PORT}`);
 });
 //# sourceMappingURL=server.js.map
